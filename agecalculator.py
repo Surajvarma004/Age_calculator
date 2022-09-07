@@ -1,0 +1,6 @@
+print("<<<<<<< AGE CALCULATOR >>>>>>")
+YOUR_BIRTH_YEAR = input("enter your birth year - ")
+CURRENT_YEAR = input("enter current year - ")
+YOUR_CURRENT_AGE = int(YOUR_BIRTH_YEAR) - int(CURRENT_YEAR)
+print("YOUR CURRENT AGE IS ")
+print (abs(YOUR_CURRENT_AGE))
